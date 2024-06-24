@@ -18,7 +18,7 @@ type user struct {
 // don't edit below this line
 
 func test(s sender) {
-	fmt.Println("Sender name:", s.name)
+	fmt.Println("Sender name:", s.name) //can access directly due to embedded struct
 	fmt.Println("Sender number:", s.number)
 	fmt.Println("Sender rateLimit:", s.rateLimit)
 	fmt.Println("====================================")
